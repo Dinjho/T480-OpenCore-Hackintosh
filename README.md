@@ -23,3 +23,13 @@ MAC address keyboard layout and language ACPI patches 等选项
 
 ####3.修改bois的设置
 ####4.安装macOS
+
+
+
+
+
+<details>
+
+<summary>样例</summary>
+sfdg
+</details>
