@@ -2,7 +2,7 @@
 
 Hi，我是小D。
 
-![Static Badge](https://img.shields.io/badge/%20ThinkPad-T480-blue.svg)![Static Badge](https://img.shields.io/badge/%20macOS-Ventura 13.4.1-brightgreen.svg?logo=apple)![Static Badge](https://img.shields.io/badge/%20OpenCore-0.9.3-blue.svg)
+![Static Badge](https://img.shields.io/badge/ThinkPad-T480-blue.svg) ![Static Badge](https://img.shields.io/badge/macOS-Ventura-brightgreen.svg?logo=apple) ![Static Badge](https://img.shields.io/badge/%20OpenCore-0.9.3-blue.svg)
 
 
 
@@ -63,13 +63,12 @@ note:此处插入一张黑苹果的截图
 - enable / disable `ACPI patches`
 
 
-
 <details>
-<summary>样例</summary>
-
-</details>
-
+ <summary>
+  
 ## 3.修改bois的设置
+
+ </summary>
 
 ThinkPad T480开机时一直按住Enter键，即可进入Bios：
 - `Security > Security Chip`: must be **Disabled**
@@ -95,25 +94,30 @@ In Thunderbolt menu, set the following options:
 
 Now you can go through the install.
 
+ </details>
 
 
+<details>
+ <summary>
+  
+  ## 4.安装MacOS
+  
+ </summary>
+ 
+ 4.1 插入启动盘USB,在OpenCore引导的启动界面按`空格键`选择 `"NO NAME (DMG)" or similar`.
 
-## 4.安装MacOS
+ > [!NOTE]
+ > 时间大约为20分钟，请耐心等待
 
-4.1 插入启动盘USB,在OpenCore引导的启动界面按`空格键`选择 `"NO NAME (DMG)" or similar`.
+ 4.2 Wait for the macOS Utilities screen.
 
-> [!NOTE]
-> 时间大约为20分钟，请耐心等待
+ 4.3 选择Disk Utility工具, 来擦除需要安装的MacOS的硬盘，此时需要擦除的是加装的东芝256G硬盘。命名此盘并 通过 **GUID Partition Map**选择 **APFS**
 
-4.2 Wait for the macOS Utilities screen.
+ 4.4 擦除之后, 返回 and 返回并选择 **Reinstall macOS** ，接下来按提示操作即可. 整个安装过程大约需要**2 hours**.
 
-4.3 选择Disk Utility工具, 来擦除需要安装的MacOS的硬盘，此时需要擦除的是加装的东芝256G硬盘。命名此盘并 通过 **GUID Partition Map**选择 **APFS**
+ > [!NOTE]
+ > 你的电脑会重启很多次. 确保每次重启都是从启动盘USB.
 
-4.4 擦除之后, 返回 and 返回并选择 **Reinstall macOS** ，接下来按提示操作即可. 整个安装过程大约需要**2 hours**.
+ 4.5 一旦你看到 `Region selection` 屏幕, 安装就完成了。
 
-> [!NOTE]
-> 你的电脑会重启很多次. 确保每次重启都是从启动盘USB.
-
-4.5 一旦你看到 `Region selection` 屏幕, 安装就完成了。
-
-ter
+</details>
