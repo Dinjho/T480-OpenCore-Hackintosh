@@ -2,8 +2,9 @@
 
 Hi，我是小D。
 
-![Static Badge](https://img.shields.io/badge/ThinkPad-T480-blue.svg) ![Static Badge](https://img.shields.io/badge/macOS-Ventura-brightgreen.svg?logo=apple) ![Static Badge](https://img.shields.io/badge/%20OpenCore-0.9.3-blue.svg) ![MacOS](https://github.com/user-attachments/assets/94c3c494-0e7e-43d4-a829-6a22ba1657f6)
+![Static Badge](https://img.shields.io/badge/ThinkPad-T480-blue.svg?align="center") ![Static Badge](https://img.shields.io/badge/macOS-Ventura-brightgreen.svg?logo=apple) ![Static Badge](https://img.shields.io/badge/%20OpenCore-0.9.3-blue.svg) 
 
+<img align="center" src="./assets/MacOS.png" alt="MacOS Ventura" width="625" style="max-width:100%;" />
 
 **⚠️ 免责声明**
 
@@ -16,7 +17,7 @@ Hi，我是小D。
 | 主板              | LENOVO 20L5A065CD                                            |
 | CPU               | Intel<sup>®</sup> Core™ i5-8250U CPU 1.60GHz                 |
 | GPU<sub>1,2</sub> | Intel<sup>®</sup> UHD Graphics 620 128 MB<sub>1</sub> , NVIDIA GeForce MX150 2GB<sub>2</sub> |
-| SSD<sub>1,2</sub> | SAMSUNG MZVLB256HAHQ-000L7 256 GB , KBG30ZMT256G TOSHIBA 256 GB |
+| SSD<sub>1,2</sub> | SAMSUNG MZVLB256HAHQ-000L7 256 GB<sub>1</sub> , KBG30ZMT256G TOSHIBA 256 GB<sub>2</sub> |
 | Memory            | DDR4 Samsung 2400 MHz                                        |
 | WiFi & BT         | Intel<sup>®</sup> Dual Band Wireless-AC 8265                 |
 
@@ -62,7 +63,7 @@ Hi，我是小D。
 
 <details>
  <summary>
-  
+
 ## 3.修改bois的设置
 
  </summary>
@@ -96,11 +97,11 @@ Now you can go through the install.
 
 <details>
  <summary>
-  
+
   ## 4.安装MacOS
-  
+
  </summary>
- 
+
  4.1 插入启动盘USB,在OpenCore引导的启动界面按`空格键`选择 `"NO NAME (DMG)" or similar`.
 
  > [!NOTE]
