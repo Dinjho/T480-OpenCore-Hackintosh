@@ -21,16 +21,24 @@ Hi，我是小D。
 | Memory            | DDR4 Samsung 2400 MHz                                        |
 | WiFi & BT         | Intel<sup>®</sup> Dual Band Wireless-AC 8265                 |
 
-
+<details>
+ <summary>
 
 ## 1.确定黑苹果安装方式 并进行硬盘分区
+</summary>
 
 
  安装方式为`双硬盘双系统`，即将Windows/MacOS分别安装在不同的硬盘上。且对安装的硬盘进行分区。具体的分区操作视频见本仓库。
 
 > 小D的ThinkPad T480硬盘是SAMSUNG MZVLB256HAHQ-000L7，开始尝试在此硬盘上双系统，但安装MacOS的时候跑代码的时候一直报错，后面根据[老吴黑苹果教程](https://hpglw.com/cdc6109c.html)了解到此型号硬盘不可以安装MacOS(具体原理我不懂)，遂加装另一块硬盘KBG30ZMT256G TOSHIBA，将安装方式改为双硬盘双系统
 
+</details>
+
+<details>
+ <summary>
+  
 ## 2.制作启动盘
+ </summary>
 
 2.1 使用黑苹果写入U盘工具![Static Badge](https://img.shields.io/badge/balenaEtcher.exe-green.svg)将MacOS镜像写入u盘，此时得到一个包含默认EFI文件夹的启动盘。具体制作启动盘操作视频见本仓库。
 
@@ -60,6 +68,8 @@ Hi，我是小D。
 - edit `default keyboard layout and language`
 - enable / disable `ACPI patches`
 
+
+</details>
 
 <details>
  <summary>
