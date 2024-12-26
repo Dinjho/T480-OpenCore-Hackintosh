@@ -4,7 +4,7 @@
 ##### ⚠️ 免责声明
 作为业余爱好者，小D对黑苹果并非很懂，只是采用 [@valnoxy](https://github.com/valnoxy/t480-oc?tab=readme-ov-file) 以及 @[我麦不好](https://www.bilibili.com/video/BV1Kj411D7ngvd_source=8fdb5ed5c412c5331312054106d1b6df) 等大佬的安装流程且恰好成功了。
 
-
+![Static Badge](https://img.shields.io/badge/%20macOS-Ventura-brightgreen.svg?logo=apple)
 
 
 ####1.确定黑苹果安装方式 并进行硬盘分区
