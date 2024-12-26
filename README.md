@@ -2,11 +2,8 @@
 
 Hi，我是小D。
 
-![Static Badge](https://img.shields.io/badge/ThinkPad-T480-blue.svg) ![Static Badge](https://img.shields.io/badge/macOS-Ventura-brightgreen.svg?logo=apple) ![Static Badge](https://img.shields.io/badge/%20OpenCore-0.9.3-blue.svg)
+![Static Badge](https://img.shields.io/badge/ThinkPad-T480-blue.svg) ![Static Badge](https://img.shields.io/badge/macOS-Ventura-brightgreen.svg?logo=apple) ![Static Badge](https://img.shields.io/badge/%20OpenCore-0.9.3-blue.svg) ![MacOS](https://github.com/user-attachments/assets/94c3c494-0e7e-43d4-a829-6a22ba1657f6)
 
-
-
-note:此处插入一张黑苹果的截图
 
 **⚠️ 免责声明**
 
