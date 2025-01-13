@@ -129,3 +129,10 @@ Now you can go through the install.
  4.5 一旦你看到 `Region selection` 屏幕, 安装就完成了。
 
 </details>
+
+
+
+
+
+01/12/2025 upgrade system -> Sonoma
+![image](https://github.com/user-attachments/assets/8d5f8713-bb52-42a5-b0e9-b7dc99d3ba7b)
